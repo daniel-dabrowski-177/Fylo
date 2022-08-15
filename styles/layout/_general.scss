@@ -1,0 +1,82 @@
+body {
+  background-color: $intro;
+  color: $white;
+  font-family: $raleway;
+}
+
+.main {
+  margin: 0 100px;
+  text-align: center;
+}
+
+.h1 {
+  font-family: $raleway;
+  font-size: 40px;
+  font-weight: $bold;
+}
+
+.h2 {
+  font-family: $raleway;
+  font-size: 20px;
+  font-weight: $bold;
+}
+
+.hero-para {
+  font-family: $raleway;
+  font-size: 20px;
+  font-weight: $regular;
+}
+
+.testimonials-para {
+  font-family: $raleway;
+  font-size: 14px;
+  font-weight: $regular;
+}
+
+.button {
+  width: 280px;
+  height: 55px;
+  background-image: linear-gradient(to right, $cyan, $blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.hero-button {
+  font-family: $raleway;
+  font-size: 16px;
+  font-weight: $bold;
+}
+
+@media (max-width: $tablet) {
+  .main {
+    margin: 0 30px;
+  }
+}
+
+@media (max-width: $mobile) {
+  .main {
+    margin: 25px 30px;
+  }
+
+  .hero-header {
+    max-width: 280px;
+  }
+
+  .h1 {
+    font-family: $raleway;
+    font-size: 20px;
+    font-weight: $bold;
+    letter-spacing: 5%;
+  }
+
+  .hero-para {
+    font-family: $open-sans;
+    font-size: 14px;
+    font-weight: $regular;
+    letter-spacing: -4%;
+  }
+}

@@ -1,0 +1,31 @@
+.section-testimonials {
+  display: flex;
+  align-items: center;
+  margin: 45px auto 0;
+  max-width: 880px;
+  flex-wrap: wrap;
+
+  .figure-testimonial {
+    width: 350px;
+    height: 250px;
+    margin: 55px auto 0;
+
+    img {
+      margin: 30px auto;
+    }
+
+    .testimonials-para {
+      margin: 10px 0 0 0;
+    }
+  }
+}
+
+@media (max-width: $mobile) {
+  .section-testimonials {
+    .figure-testimonial {
+      img {
+        margin: 30px auto;
+      }
+    }
+  }
+}
