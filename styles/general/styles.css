@@ -584,6 +584,10 @@ body {
   gap: 30px;
 }
 
+.section-footer .footer-container .footer-location {
+  max-width: 30ch;
+}
+
 .section-footer .center .footer-email {
   margin: 25px 0 0 0;
 }

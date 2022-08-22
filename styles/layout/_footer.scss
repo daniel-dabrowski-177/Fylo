@@ -14,6 +14,10 @@
     margin: 40px 120px 0;
     flex-wrap: wrap;
     gap: 30px;
+
+    .footer-location {
+      max-width: 30ch;
+    }
   }
 
   .center {
