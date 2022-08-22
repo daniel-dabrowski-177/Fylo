@@ -8,7 +8,8 @@
   .figure-service {
     width: 350px;
     height: 250px;
-    margin: 0 auto;
+    margin: 60px auto;
+    padding: 0 20px;
 
     img {
       margin: 30px auto;
@@ -20,13 +21,24 @@
   }
 }
 
+@media (max-width: $tablet) {
+  .section-services {
+    .figure-service {
+      padding: 0;
+    }
+  }
+}
+
 @media (max-width: $mobile) {
   .section-services {
     .figure-service {
-      margin: 25px 0 0 0;
+      margin: 125px 0 0 0;
       img {
         margin: 30px auto;
       }
+    }
+    .figure-service:first-of-type {
+      margin: 55px 0 0 0;
     }
   }
 }

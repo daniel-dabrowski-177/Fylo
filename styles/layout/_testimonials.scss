@@ -18,6 +18,9 @@
     width: 360px;
     padding: 25px;
     border-radius: 8px;
+    -webkit-box-shadow: 4px 4px 4px 0px rgb(19, 22, 32);
+    -moz-box-shadow: 4px 4px 4px 0px rgb(19, 22, 32);
+    box-shadow: 4px 4px 4px 0px rgb(19, 22, 32);
 
     .testimonial-para {
       text-align: left;

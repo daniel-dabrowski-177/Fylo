@@ -12,9 +12,9 @@ body {
   background-color: $intro;
   z-index: -1;
   position: absolute;
-  top: 880px;
-  padding: 880px 0 0 0;
-  margin: -880px 0 0 0;
+  top: 770px;
+  padding: 770px 0 0 0;
+  margin: -770px 0 0 0;
 }
 
 .main {
@@ -30,7 +30,7 @@ body {
 
 .h2 {
   font-family: $raleway;
-  font-size: 20px;
+  font-size: 32px;
   font-weight: $bold;
 }
 
@@ -92,6 +92,15 @@ body {
   font-family: $raleway;
   font-size: 16px;
   font-weight: $bold;
+}
+
+.icon {
+  height: 20px;
+}
+
+.item {
+  display: flex;
+  gap: 20px;
 }
 
 @media (max-width: $tablet) {
